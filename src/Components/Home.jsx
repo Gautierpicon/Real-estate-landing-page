@@ -39,12 +39,12 @@ const Home = () => {
 
               <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform hover:scale-105 cursor-pointer'>
               <FaLocationDot className="text-blue-600 mb-2"/>
-              <span className='font-semibold text-white'>Beverly Hills</span>
+              <span className='font-semibold text-white'>Malibu</span>
               </div>
 
               <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform hover:scale-105 cursor-pointer'>
               <FaLocationDot className="text-blue-600 mb-2"/>
-              <span className='font-semibold text-white'>Beverly Hills</span>
+              <span className='font-semibold text-white'>Hollywood</span>
               </div>
             </div>    
           </div>
