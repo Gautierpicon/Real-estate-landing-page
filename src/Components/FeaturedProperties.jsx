@@ -39,7 +39,6 @@ const FeaturedProperties = () => {
               </h3>
 
               <div className='flex justify-between items-center p-3 bg-blue-50 rounded-lg'>
-
                 <div className='flex items-center gap-2'>
                   <FaBed className='text-blue-600'/>
                   <span className='text-gray-600'>
@@ -60,8 +59,8 @@ const FeaturedProperties = () => {
                     {property.sqft} Sqft
                   </span>
                 </div>
-
               </div>
+
             </div>
           </div>
         ))}
