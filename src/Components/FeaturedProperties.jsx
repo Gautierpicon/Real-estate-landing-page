@@ -1,9 +1,9 @@
 import React from 'react'
 import properties from '../properties';
-import { FaBed, FaHeart, FaRuler } from 'react-icons/fa';
-import { FaBath, FaLocationDot } from 'react-icons/fa6';
+import { FaBath, FaBed, FaHeart, FaRuler } from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
 
-const FeaturedProperties = () => {
+const FeaturedProperties = ({ setSelectedProperty }) => {
   return (
     <section className='max-w-7xl mx-auto py-16 px-4'>
       <h2 className='text-3xl font-bold mb-8'>
@@ -15,6 +15,7 @@ const FeaturedProperties = () => {
           <div 
           key={property.id}
           className='bg-white rounded-2xl drop-shadow-lg overflow-hidden hover:drop-shadow-xl hover:scale-105 transition-all duration-300 relative group cursor-pointer'
+          onClick={() => setSelectedProperty(property)}
           >
             <div className="relative">
               <img src={property.image} className='w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300' />
